@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+  <!-- Project -->
+ <div class="container">
+ <div class="issContainer">
+<div class="head">
+ <p>The iss locator</p>
+
+</div>
+ <hr>
+<div class="issInfo">
+<div class="latitude">
+ <label>latitude: </label> <span class="lat">000000</span>
+</div>
+<div class="longitude">
+ <label>longitude: </label> <span class="lon">000000</span>
+</div>
+</div>
+ <div id="map"></div>
+
+ </div> 
+
+ </div>
+  <script src="main.js"></script>
+</body>
+</html>
